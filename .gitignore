@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and models
+*.pth
+*.pt
+checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE / Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated synthetic cache or temp outputs
+outputs/
+data/synthetic_saree_corpus/
